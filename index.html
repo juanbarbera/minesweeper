@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Minesweeper</title>
+</head>
+
+<body>
+  <div id="controls">
+    <input type="button" value="start" id="gameStart" />
+    <div id="difficulty">
+      <label for="easy">Easy</label>
+      <input type="radio" id="easy" name="difficulty" value="easy" checked>
+      <label for="medium">Medium</label>
+      <input type="radio" id="medium" name="difficulty" value="medium">
+      <label for="Hard">Hard</label>
+      <input type="radio" id="hard" name="difficulty" value="hard">
+    </div>
+  </div>
+
+  <div id="board"></div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
